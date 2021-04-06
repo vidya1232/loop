@@ -1,0 +1,15 @@
+class Example3{
+public static void main(String args[]){
+
+
+for(int row =1 ; row<=4; row++) // row 2 2<=4
+    {
+    for(int col = 1; col<=3; col++) // col = 1 2 3
+    {
+    System.out.print(row+ " "); 
+    }
+    //val++; 
+    System.out.println();
+    }
+}
+}
