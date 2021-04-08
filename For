@@ -1,0 +1,18 @@
+public class For {
+	public static void main(String[] args) {
+	int val = 1;
+    for (int row = 1; row<=5; row++) 
+	{
+      for (int col =5; col>= row; col--) 
+	  {
+          System.out.print("A");
+	  }
+	   for(int colstar = 1; colstar<=row; colstar++)
+	  {
+      System.out.print("* ");
+      }
+       System.out.println();
+	}
+	
+}
+}
