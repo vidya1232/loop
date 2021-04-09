@@ -1,0 +1,64 @@
+class Diamond
+{
+	int v = 3;
+	int kk =2;
+public static void  main(String [] args) 
+{
+	int rr =5;
+	Diamond cc = new Diamond();
+	for(int col=1;col<=5;col++)
+	{
+		for(int row=5;row>=col;row--)
+		{
+		System.out.print(" ");
+		}
+		for(int rows=1;rows<=col;rows++)
+		{
+		System.out.print("* ");
+		}
+		for(int zz=1;zz <rr;zz++)
+        {
+        System.out.print("1"+ "1"); 
+        }
+		for(int rows=1;rows<=col;rows++)
+		{
+		System.out.print("* ");
+		}
+		col++;
+		rr = rr-2;
+		System.out.println();
+	}
+	cc.inverse();	
+}
+	public void inverse()
+	{
+		for(int c=1;c<=5;c++)
+		{
+		for(int r=1;r<=v;r++)
+		{
+		System.out.print(" ");
+		
+		}
+		v=v+2;
+		for(int rs=3;rs>=c;rs--)
+		{
+		System.out.print("* ");
+		}
+		for(int zz=1;zz<=kk;zz++)
+        {
+        System.out.print("1"+ "1"); 
+        }
+		for(int rs=3;rs>=c;rs--)
+		{
+		System.out.print("* ");
+		}
+		
+		c++;
+		kk = kk*2;
+		System.out.println();
+	}
+
+		
+	
+	}
+}
