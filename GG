@@ -1,0 +1,47 @@
+class GG
+{
+public static void main(String[]args)
+{
+	int ji=1;
+	
+	for(int colv=1;colv<=7;colv++)
+	{
+	for(int coll=1;coll<=colv;coll++)	
+	{
+	
+	System.out.print(coll);
+	}	
+-------
+//no++;
+}
+//for(int coli=1;coli<=6;coli++)
+	//{
+	for(int coll=6;coll>=1;coll--)	
+	{
+	for(int coli=1;coli<=coll;coli++)
+	{		
+	System.out.print(coli);
+	//ji++;
+	}
+	System.out.println();
+	}	
+
+}
+
+}
+
+/* OUTPUT:
+1
+12
+123
+1234
+12345
+123456
+1234567
+123456
+12345
+1234
+123
+12
+1
+*/
