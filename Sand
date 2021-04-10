@@ -1,0 +1,40 @@
+class Sand
+{
+public static void main(String[]args)
+{
+	int m = 1;
+	int n = 8;
+	int v= 6;
+   for(int row=1;row<=7;row++)
+   {
+     for(int col=1;col<=row;col++)
+	 {
+	System.out.print(" ");
+	 }
+	 //System.out.println();
+	
+	for(int i=m;i<=7;i++)
+	{
+	System.out.print(i);	
+    }
+   m++;
+  System.out.println(); 	
+   
+ }
+ for(int row=1;row<=6;row++)
+   {
+ for(int col=6;col>=row;col--)
+	 {
+	System.out.print(" ");
+	 }
+ //System.out.println();
+ for(int i=v;i<=7;i++)
+	{
+	System.out.print(i); 
+    }
+	v--;
+   n++;
+   System.out.println();
+ }
+}
+}
