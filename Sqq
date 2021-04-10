@@ -1,0 +1,49 @@
+class Sqq
+{
+//int no =1 ;	
+public static void main(String[]args)
+
+{
+	int count = 7;
+	int no =1 ;
+	Sqq cc = new Sqq();
+for(int row=1;row<=7;row++)
+{
+	for(int col=6;col>=row;col--)
+	{
+	System.out.print("1");
+	}
+//--System.out.println();
+
+//for(int colv=1;colv<=6;colv++)
+	//{
+	for(int coll=1;coll<=no;coll++)	
+	{
+	
+	System.out.print(no);
+	}	
+System.out.println();
+no++;
+}
+//cc.inc();
+}
+/*public void inc()
+{
+	for(int colv=1;colv<=6;colv++)
+	{
+	for(int coll=1;coll<=no;coll++)	
+	{
+	
+	System.out.print(no);
+	}	
+System.out.println();
+no++;*/
+}
+/*1111111
+1111122
+1111333
+1114444
+1155555
+1666666
+7777777
+*/
