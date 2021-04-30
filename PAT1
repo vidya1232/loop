@@ -1,0 +1,46 @@
+public class PAT1
+{
+	public static void main(String[] args)
+	{
+	
+		int b=1,n=2,m=6,g=7;
+	for(int i=1;i<=5;i++)
+	{
+	for(int j=i;j<=b;j++)
+	{
+	System.out.print(j);
+	}
+
+	b=b+2;
+	if(i>1)
+	{
+	for(int k=n;k>=i;k--)
+	{
+	System.out.print(k);
+	}
+	n=n+2;}
+	System.out.println();
+	}
+	
+	for(int d=4;d>=1;d--)
+	{
+		for(int f=d;f<=g;f++)
+		{
+			System.out.print(f);
+	    }
+	g=g-2;
+	if(d>1)
+	{
+	for(int y=m;y>=d;y--)
+	{
+		System.out.print(y);
+	    }
+	m=m-2;		
+	
+	
+	}
+	System.out.println();
+	}
+	
+}
+}
