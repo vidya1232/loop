@@ -1,0 +1,26 @@
+package vidya;
+public class Pattern {
+	static int n=1;
+public static void main(String[] args) {
+	Pattern cc =new Pattern();
+	cc.calmethod(1);
+	}
+private static void calmethod(int i) {
+		if(i<=4)
+		{
+			Pattern.sim(i);
+		}
+		
+	}
+private static void sim(int j) {
+if(j>=1)
+{
+System.out.print("*");
+j--;
+sim(j);
+}
+else{
+System.out.println();
+n++;
+calmethod(n);}
+		
